@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1A | sed -e 's/[^\/]*$/&\//' | LC_COLLATE=C sort -df | tr '\n' ',' && echo
+ls -m
