@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync -avz --ignore-existing --include="*/" --include="*.html" --exclude="*" --update "$src_dir/" "$dest_dir/"
+cp HTML.html . ..
